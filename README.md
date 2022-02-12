@@ -1,1 +1,1 @@
-# Exercicios
+# REPOSITÓRIO DESTINADO A ARMAZENAS OS APRENDIZADOS SOBRE CSS E HTML (Instrutor Bonieky Lacerda)
