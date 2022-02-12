@@ -1,5 +1,5 @@
 # REPOSITÓRIO DESTINADO A ARMAZENAS OS APRENDIZADOS SOBRE CSS3 E HTML5 
-→ [Instrutor Bonieky Lacerda] (https://www.facebook.com/B7Web)
+→ [Instrutor Bonieky Lacerda](https://www.facebook.com/B7Web)
 
 # CONTEÚDOS ABORDADOS
 
