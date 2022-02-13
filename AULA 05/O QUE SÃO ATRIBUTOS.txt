@@ -1,0 +1,7 @@
+Atributos HTML são palavras especificas usadas dentro da tag de abertura para controlar o comportamento do elemento.
+
+Exemplos de Atributos 
+
+<p> CONTEÚDO </p>
+<h1> CONTEÚDO </h1>
+<strong> CONTEÚDO </strong>
