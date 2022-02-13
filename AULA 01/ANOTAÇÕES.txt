@@ -1,3 +1,0 @@
-HTML é o conteúdo de uma página, significa HiperText Markup Language com ele possível inserir o conteúdo e estabelecer a estrutura básica de um website, diferente do que muitos dizem, HTML não é uma linguagem de programação, mas sim uma linguagem de marcação!
-
-CSS é o design, significa Cascading Style Sheets ou Cascading Style Sheets e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML.
