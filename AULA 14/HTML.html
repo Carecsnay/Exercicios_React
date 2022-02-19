@@ -1,13 +1,118 @@
-<!DOCTYPE html>
-<html>
+Como colocar em NEGRITO
 
-<head>
-    <meta charset="UTF-8" />
-    <title>Título da Página</title>
-</head>
-
+No HTML
+...
 <body>
-    <h1> Testando 1, 2, 3. </h1>
+    <!--
+    Caso eu queira colocar o nome "TEXTO" em negrito eu coloco a palavra 
+    entre a tag 
+
+    Sem semântica de importância
+    <b> </b> (bold)
+
+    Existe também a tag 
+    <strong> </strong> 
+
+    Além de deixar em negrito, ela vai dar a semântica de importância (não muda visualmente),
+    mas por outro lado ele vai dar prioridade para ler essa tag em casos de deficientes
+    -->
+    <b>TEXTO</b> QUE EU QUERO <strong>FORMATAR</strong>
+</body>
+...
+
+
+Como colocar em ITALICO
+
+No HTML
+...
+<body>
+   
+<!-- Existe também duas maneiras de colocar o texto em itálico
+        A primeira opção é usando a tag:
+
+        <i> </i> NÃO tem importância semântica! 
+
+        A segunda opção é usando a tag:
+
+        <em> </em> TEM importância semântica! 
+
+
+    -->
+    <b><i>TEXTO</i></b> QUE EU QUERO <strong><em>FORMATAR</em></strong>
+
+COLOCAR TEXTO COM MENOS DESTAQUE
+...
 </body>
 
-</html>
+    <!-- 
+
+        Quando eu não quero dar um destaque em uma frase eu utilizo a tag
+
+        <small> </small>
+
+    -->
+    <b><i>TEXTO</i></b> QUE EU QUERO <strong><em>FORMATAR</em></strong>
+    </br>
+    <small>Não quero que essa frase fique destacada</small>
+
+</body>
+...
+
+RISCAR UM TEXTO (TACHAR)
+...
+<body>
+
+    <!-- 
+
+        Quando eu quero riscar uma palavra ou frase eu utilizo a tag
+
+        <del> </del>
+
+        No exemplo abaixo ela irá riscar a palavra "QUERO"
+
+    -->
+    <b><i>TEXTO</i></b> QUE EU <del>QUERO</del> <strong><em>FORMATAR</em></strong>
+    </br>
+
+</body>
+...
+
+Quando eu quero Marcar alguma frase/palavra
+
+...
+<body>
+
+    <!-- 
+
+        Quando eu quero marcar uma palavra ou frase eu utilizo a tag
+
+        <mark> </mark>
+
+        No exemplo abaixo ela irá marcar a palavra "QUE"
+
+    -->
+    TEXTO <mark>QUE</mark> EU QUERO FORMATAR
+
+</body>
+...
+
+COLOCANDO 1º OU 1o
+
+...
+<body>
+
+    <!-- 
+
+        Quando eu quero colocar º ou o inverso uma palavra ou frase eu utilizo a tag
+        <sup> </sup> fica a letra em cima
+        <sub> </sub> fica a letra em baixo
+        Na letra "o" dentro da tag sup ficará como se fosse numeração ordinais 1º, 2º
+        Na letra "o" dentro da tag sub ficará mais abaixo.
+
+    -->
+    1<sup>o</sup> TEXTO QUE EU QUERO FORMATAR
+    <br>
+    2<sub>o</sub> TEXTO QUE EU QUERO FORMATAR
+
+</body>
+...
