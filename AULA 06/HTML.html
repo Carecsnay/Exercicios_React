@@ -3,11 +3,48 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Título da Página</title>
+    <title>APRENDIZADO DA AULA 06</title>
 </head>
 
 <body>
-    <h1> Testando 1, 2, 3. </h1>
+    2  - Colocando Class (Pode ser reutilizado em várias partes do código, vai alterar todos os que tiverem a identificação da classe);  
+No HTML 
+        <h1 class="tittle"> texto </h1>    
+        <a class="tittle"> texto </a>  
+
+
+No CSS 
+        .tittle {
+            Propriedade 1;
+            Propriedade 2;
+         }
+
+
+Pra você conseguir colocar várias propriedades em tipos diferentes elementos (id e class), você utiliza a seguinte estratégia:
+
+Nesse caso as propriedades serão aplicadas simultaneamente tanto na classe(.) quanto no ID(#).
+No CSS 
+        .tittle, 
+        #tittle {
+            Propriedade 1;
+            Propriedade 2;
+        }
+
+
+Para você conseguir selecionar um item dentro de outro item:
+Ex.: 
+
+No HTML
+<ol>
+    <li>item></li>
+</ol>
+
+O código abaixo faz com que os efeitos sejam aplicados somente na tag li, primeiro é feito a varredura das tags ol caso ela exista, as tags li recebem os efeitos.
+
+No CSS
+<ol> <li> {
+    propriedades;
+}
 </body>
 
 </html>
