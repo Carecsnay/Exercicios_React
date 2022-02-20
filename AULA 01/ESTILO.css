@@ -1,6 +1,7 @@
 * {
-    box-sizing: border-box;
-    text-align: center;
+    box-sizing: border-box; /*as propriedades de width e height incluem o tamanho padding size e a propriedade border, mas não incluem a propriedade margin.*/
+    text-align: center; /*alinhando texto ao centro*/
+    font-family: Arial, Helvetica, sans-serif; /*definindo fontes para o projeto, caso 1 falhe a proxima assumira o lugar*/
 }
 
 body {
@@ -19,7 +20,6 @@ a {
     font-weight: bold; /*colocando em negrito o conteudo de A*/
     text-decoration: none; /*removendo linha do link*/
     color: darkred; /*cor do texto*/
-
 }
 
 a:hover {
@@ -28,4 +28,8 @@ a:hover {
 
 p {
     text-align: justify; /*justificando conteúdo do texto na tag p*/
+}
+
+p.description { /*Ajustando a descrição do conteúdo*/
+    font-size: 20px;
 }
