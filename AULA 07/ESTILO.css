@@ -1,0 +1,13 @@
+* {
+    text-align: justify;
+    font-family: arial;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+b {
+    color: red;
+    text-decoration: underline;
+}
