@@ -4,10 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>APRENDIZADO DA AULA 08</title>
+    <link rel="stylesheet" href="ESTILO.css"/>
 </head>
 
 <body>
+    <h1>INPUT</h1>
 
+   <form action="Login.html" method="get">  <!--metodo get passa informações de uma página para outra usando a URL como meio, o post não funcionou n sei o porque!-->
+
+      <input type="text" name="usuario" value="Usuário" />  Input de texto<br><br> <!--value é como se fosse um default-->
+      <input type="email" name="email" placeholder="digite seu email" />  Input de email<br><br>
+      <input type="password" name="senha" /> Input de password <br><br>
+      <input type="checkbox" name="select" /> Input de checkbox <br><br>
+      <input type="radio" name="selected"/> Input de radio (Sim)
+      <input type="radio" name="selected"/> Input de radio (Não)<br><br> <!--tem que ser nome diferente para desmarcar a outra opção-->
+      <input type="submit" value="Salvar"/>  Input envio de formulário<br><br>
+
+   </form>
 </body>
 
 </html>
