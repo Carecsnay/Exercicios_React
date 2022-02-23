@@ -15,7 +15,7 @@ h3 {
     text-decoration: underline;
 }
 
-input [type="text"] { /*[] type funciona somente para alguns elementos como o text, password. O ideal é usar classe ou id*/
+input[type="text"] { /*[] type funciona somente para alguns elementos como o text, password. O ideal é usar classe ou id*/
     padding: 10px; /*define uma a distância entre o conteúdo de um elemento e suas bordas.*/
     width: 500px;
     color: black;
