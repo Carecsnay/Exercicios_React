@@ -1,0 +1,36 @@
+* {
+    text-align: justify;
+    font-family: arial;
+}
+
+h1 {
+    color: red;
+    font-size: 25px;
+    line-height: 35px;
+    text-shadow: 0px 1px 2px black;
+}
+
+h3 {
+    color: darkred;
+    text-decoration: underline;
+}
+
+label  {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input {
+    display: block;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: maroon;
+}
+
