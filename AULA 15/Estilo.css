@@ -1,0 +1,65 @@
+* {
+    text-align: justify;
+    font-family: arial;
+}
+
+h1 {
+    color: red;
+    font-size: 25px;
+    line-height: 35px;
+    text-shadow: 0px 1px 2px black;
+}
+
+h3 {
+    color: darkred;
+    text-decoration: underline;
+}
+
+input[type="text"], textarea, select { /*[] type funciona somente para alguns elementos como o text, password. O ideal é usar classe ou id. Aqui também estamos aplicando o mesmo css para o textarea e select */ 
+    padding: 10px; /*define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+    width: 500px;
+    color: black;
+    border: 1px solid gray;
+    /* outline: none; remove a borda do foco (padrão fica azul no edge) */
+    outline-color: #9ff000;
+    margin-top: 5px; /* descolando o input do texto "nome completo" */
+    border-radius: 7px;
+}
+
+label {
+    display: block; /*O elemento gera uma caixa de elemento de bloco.*/
+    margin-bottom: 20px; /*define a margins na parte inferior de um elemento.*/
+}
+
+label textarea{
+    height: 120px;
+     resize: none;  /*disable redimenssionamento do textarea*/
+}
+/* Como deixa o "termos de uso indiscreto*/
+.termoslink {
+    color:black;
+    text-decoration:none; 
+    outline-color: #9ff000;
+}
+/* mudando o efeito de quando o indivíduo passar o mouse em cima. */
+.termoslink:hover {
+    color:black;
+    text-shadow: 2px -2px 0px #9ff000, 
+                -2px 2px 0px #9ff000,                    
+                 2px -2px 0px #9ff000,                  
+                 2px 0px 0px #9ff000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid gray;
+    background-color:#eee;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color:#9ff000
+}
