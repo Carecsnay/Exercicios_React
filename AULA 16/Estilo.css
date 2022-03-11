@@ -34,3 +34,13 @@ legend {
     color: maroon;
 }
 
+/* botão submit */
+.sendButton {
+    color: maroon;
+    font-weight: bold;
+    border: 5px double black;
+}
+
+.sendButton:hover{
+    background-color: greenyellow;
+}
