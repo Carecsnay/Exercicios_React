@@ -29,6 +29,7 @@ span {
     text-decoration: underline;
     color:red;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 label  {
