@@ -1,0 +1,71 @@
+/* uso de variáveis (aprendizado aprendido de fora) */
+:root{
+    --color-tittle: #ff0000;
+    --color-subtitle: #800000;
+    --color-title-forms: #ec8787;
+    --color-background-forms: #ffadad;
+    --color-font: #000000;
+    --color-hover: #00ff00;
+}
+
+* {
+    text-align: justify;
+    font-family: arial;
+}
+
+h1 {
+    color: var(--color-tittle); /* usando variáveis lá de cima*/
+    font-size: 25px;
+    line-height: 35px;
+    text-shadow: 0px 1px 2px black;
+}
+
+h2 {
+    color: var(--color-subtitle);
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+span {
+    text-decoration: underline;
+    color:red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+label  {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input {
+    display: block;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    background-color: var(--color-background-forms);
+}       
+
+legend {
+    font-weight: bold;
+    color: var(--color-font);
+    background-color: var(--color-title-forms);
+    border: 5px double black;
+}
+legend:hover {
+    background-color: var(--color-hover);  
+}
+
+/* botão submit */
+.sendButton {
+    color: var(--color-font);
+    font-weight: bold;
+    border-radius: 3px 5px 3px 5px;
+    background-color: var(--color-background-forms);
+}
+
+.sendButton:hover{
+    background-color: var(--color-hover);
+}
