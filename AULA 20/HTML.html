@@ -3,10 +3,72 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APRENDIZADO DA AULA 20</title>
+    <link rel="stylesheet" href="ESTILO.css" />
 </head>
 
 <body>
+    <h1>Input type file (Módulo 03 Aula 20 - CSS3/HTML5)</h1>
+
+    <h2>RESUMO</h2>
+    Input do tipo <span>file</span> serve para enviar determinado arquivo, um exemplo comum seria uma foto de perfil.
+    <br /><br />
+    <!-- NOTA: QUANDO ENVIAR ARQUIVOS É NECESSÁRIO COLOCAR NO FORM (linha 19) O ENCTYPE que serve para encriptar os arquivos, nesse caso para bites, para evitar problemas para recepção desses dados. -->
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Dados do Empregado</legend>
+            <label>
+                Foto de Perfil
+                <!-- 
+                    Abaixo o input recebe a propriedade "file", na qual o usuário irá escolher um arquivo para enviar junto com os dados preenchido pelo formulário.
+                
+                    Para especificar um grupo de arquivo você coloca a propriedade accept="grupo_de_arquivos/*" exemplo, pode ser "image/*", então ele irá aceitar todos os tipos de imagens.
+
+                    Para especificar uma extensão de um arquivo  você coloca a propriedade accept="grupo_de_arquivo/extensão/" exemplo, pode ser "application/pdf*" aqui ele irá aceitar arquivos do tipo PDF.
+                 -->
+
+                <input type="file" class="profile" name="img-profile" accept="application/pdf" required>
+            </label>
+            <label>
+                Primeiro Nome
+                <input type="text" name="firstName" required>
+            </label>
+
+            <label>
+                Sobrenome
+                <input type="text" name="lastName" maxlength="20">
+            </label>
+
+            <label>
+                Idade
+                <input type="number" name="age" step="2" required>
+            </label>
+
+            <label>
+                E-mail
+                <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[A-Za-Z0-9-]+\;[a-zA-Z0-9-.]+$)"
+                    title="Insira um e-mail válido" required>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados da Empresa</legend>
+            <label>
+                Nome da Empresa
+                <input type="text" name="companyName">
+            </label>
+
+            <label>
+                Inicio de Abertura
+                <input type="date" name="birthDate" min="1900-01-01" max="2022-03-12" required>
+            </label>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar" class="sendButton">
+
+    </form>
 
 </body>
 
