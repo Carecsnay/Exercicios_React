@@ -20,6 +20,7 @@
     align-items: center;
     background-color: var(--color-background-forms);
     border: 3px solid var(--color-border);
+    border-radius: 10px;
     color: var(--color-tittle);
     display: flex;  /* SE NÃO COLOCAR ESSA "PERTE" AQUI O CONTEÚDO DENTRO DA DIV NÃO CENTRALIZA.*/
     font-size: 12px;
@@ -34,9 +35,10 @@
     color: var(--color-font);
     background-color: var(--color-background-forms-2);
     border: 3px solid var(--color-border);
+    border-radius: 10px;
     height: 300px;
     margin-top: 5px;
-    padding: 5px;
+    padding: 15px;
 }
 
 /* irá aplicar efeito na tag strong, porém se eu não especificar aqui em baixo ela irá herdar propriedades (geralmente de texto) do .container */
