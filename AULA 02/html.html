@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>APRENDIZADO DA AULA 02</title>
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>Especificidade do CSS</h1>
+    </div>
+
+    <div class="container">
+        O CSS lê o código de cima para baixo, porém, quanto <strong>mais específico</strong> for o elemento for,
+        maiores as chances de o efeito ser aplicado nele! <br><br>
+
+        Ex.: <br><br>
+        No HTML <br><br>
+        <div class="annotation">
+            O texto abaixo tem uma <strong>div com a classe "sample" definida</strong> (ver código HTML).<br><br>
+        </div>
+
+        <div class="sample">
+            No CSS (tag vs id/class)<br><br>
+            div .sample { 👉 /*aqui atribui o efeito direto na classe*/<br>
+            background-color: transparent;<br>
+            }<br><br>
+
+            div { 👉 /*aqui atribui o efeito direto no elemento*/<br><br>
+            background-color: #ffffff;<br>
+            }<br>
+        </div>
+        <br>
+
+        <div class="annotation">
+            Podemos observar que mesmo o efeito sendo aplicado depois do que está usando classe, ele não foi aplicado,
+            pois o princípio da especificidade diz que quem ganha é quem for mais específico. Então, div é um elemento
+            geral,
+            já div com classe "sample" é uma div específica. Agora se caso eu não atribua algum valor em <strong>div
+                .nomeClasse</strong></strong> o efeito da <strong>div geral</strong> seria aplicado.
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
