@@ -1,0 +1,57 @@
+:root{
+    --color-tittle: #ffae00;
+    --color-subtitle: #800000;
+    --color-title-forms: #ec8787;
+    --color-background-forms: #b2b2b2;
+    --color-background-forms-2: #cecece;
+    --color-border: #000000;
+    --color-font: #643202;
+    --color-hover: #25dd78;
+    --color-strong:#ff0000;
+    --color-selections: rgba(0, 0, 255, 0.267)
+}
+
+* {
+    text-align: justify;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+ .title {
+    align-items: center;
+    background-color: var(--color-background-forms);
+    border: 3px solid var(--color-border);
+    border-radius: 10px;
+    color: var(--color-tittle);
+    display: flex;  /* SE NÃO COLOCAR ESSA "PERTE" AQUI O CONTEÚDO DENTRO DA DIV NÃO CENTRALIZA.*/
+    font-size: 12px;
+    justify-content: center; /*COLOCA O NOME "HERANÇA DO CSS / H1" NO CENTRO DA PAGINA*/
+    height: 50px;
+    text-shadow: 1px 2px 4px var(--color-border);
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.container{
+    color: var(--color-font);
+    background-color: var(--color-background-forms-2);
+    border: 3px solid var(--color-border);
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+/* irá aplicar efeito na tag strong, porém se eu não especificar aqui em baixo ela irá herdar propriedades (geralmente de texto) do .container */
+.container strong {
+    color: var(--color-strong);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: bold;
+}
+
+span{
+    font-weight: normal;
+}
