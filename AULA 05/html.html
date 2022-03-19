@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>APRENDIZADO DA AULA 05</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Unidades de Medidas Relativas</h1>
+    </div>
+
+    <div class="container">
+        Elas mudam de tamanho de acordo com o tamanho dos elementos na página, perfeito para utilizar em responsividade.
+        <br><br>
+
+        Algumas unidades de medidas relativas são: <br><br>
+
+        <strong>Em</strong> - herda o tamanho de seus elementos superiores, por exemplo, no meu body eu coloquei 40px e
+        em seguida vou atribuir em uma classe interna o tamanho da fonte de 2em, esse 2em vai equivaler a 80px, se
+        dentro dessa classe eu tiver outra (aninhada) o valor o em vai equivaler a 80px. (processo em cascata e
+        progressivo, se multiplicam internamente); <br><br>
+
+        <strong>Rem (Rootem)</strong> - diferente do em (que herda do elemento superior), o rem herda o tamanho do
+        elemento mais superior de todos, por exemplo, se eu definir no body 20px e em seguida atribuir nas classes
+        internas 2rem, esses 2 rem vão equivaler a 40px, a diferença é que não importa o quão interno eu esteja
+        aplicando o tamanho nas classes, ele sempre vai pegar o tamanho do <STRONG>PAI DE TODOS</STRONG>, nesse caso
+        sempre será 20px (o rem corresponde diretamente ao item "root" da estrutura). Quando não definimos o valor de
+        1rem, geralmente o 1rem equivale a 16px, além de números do tipo reais (valores quebrados).
+
+        <p style="font-weight: bold">
+            ✨Vamos fixar o conhecimento!✨<br>
+
+            Qual o valor aproximado da unidade, em pixels, para a maioria dos navegadores atuais? <br><br>
+
+            <span style="font-weight: normal">
+                1 20px <br>
+                2 30px <br>
+                3 16px <br>
+                4 12px <br><br>
+            </span>
+
+            Resposta no código fonte! (linha 49 HTML)
+
+            <!-- resposta certa seria a opção 3 -->
+        </p>
+
+    </div>
+</body>
+
+</html>
