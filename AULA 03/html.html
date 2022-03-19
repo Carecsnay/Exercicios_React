@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>APRENDIZADO DA AULA 03</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Leitura do CSS</h1>
+    </div>
+
+    <div class="container">
+        Folhas de estilo em <strong>cascata</strong>. <br><br>
+
+        Como mencionado na aula anterior, o CSS faz a leitura de cima para baixo, portanto a última propriedade aplicada
+        será aplicada (caso o elemento não seja especificado - id, classe). <br><br>
+
+        Se colocarmos o CSS diretamente no HTML (CSS-inline), o efeito
+        seria
+        aplicado, pois
+        o HTML por
+        padrão lê primeiramente o CSS externo e só depois ele verifica o CSS aplicado no HTML (CSS-inline). Sendo assim,
+        seguindo o
+        princípio
+        Cascata <br><br>
+
+        Ex.:
+        A palavra abaixo terá o efeito aplicado primeiramente no arquivo externo, a cor dela definida será
+        <spam style="color: #ff0000; font-weight: bold">vermelha</spam>. (linha 51 código CSS) <br>
+        <p>
+            meu texto aqui
+        </p>
+        inicialmente, como podemos observar, o conteúdo ficou em vermelho. Agora o que acontece se eu aplicar o
+        CSS-inline?
+
+        <p style="color: #32cd32">
+            meu texto aqui
+        </p>
+
+        Veja que desta vez "setei" o estilo diretamente no HTML "p style="color: <spam style="color: #32cd32;" ;>#32cd32
+        </spam>", o que acontece é que primeiramente foi alterado a fonte para vermelho e logo depois para verde,
+        seguindo modelo Cascata. <br><br>
+
+        O mapa de leitura seria mais ou menos assim: <br><br>
+        html → lê o css importado → lê o css dentro do html
+    </div>
+</body>
+
+</html>
