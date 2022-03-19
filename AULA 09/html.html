@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>APRENDIZADO DA AULA 09</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1><span style="color:greenyellow">Tipos</span> <span style="color:#ff0000">de</span> <span
+                style="color:rgba(0, 255, 255, 0.5)">valores</span> <span style="color:purple">para</span> cores</h1>
+    </div>
+
+    <div class="container">
+        <p style="font-weight: normal;">
+
+            O <strong>primeiro</strong> modo é utilizando o <strong>nome da cor</strong>, seguindo a sintaxe abaixo:
+            <br><br>
+            <span style="color:darkblue; background-color: #ffffff;">color:darkblue;</span> <br><br>
+
+            O <strong>segundo</strong> modo é utilizando o <strong>valor hexadecimal</strong>, seguindo a sintaxe
+            abaixo: <br><br>
+            <span style="color:#000000; background-color: #ffffff;">color: #000000;</span> <br><br>
+            Os valores aceitos vão de 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F. Quanto mais próximo de F, mais forte a
+            tonalidade, os 2 primeiros números representam o vermelho, os 2 do meio verde, os 2 últimos azul
+            (<span style="background-color: white;">
+                <span style="color: #ff0000;">R</span>
+                <span style="color: #00FF00;">G</span>
+                <span style="color: #0000FF;">B</span>
+            </span>).<br><br>
+
+            O <strong>terceiro</strong> modo é utilizando o <strong>rgb</strong>, seguindo a sintaxe abaixo:
+            <br><br>
+            <span style="color:rgb(150,0,150); background-color: #ffffff;">color:rgb(150,0,150);</span> <br><br>
+
+            O <strong>quarto</strong> modo é utilizando o <strong>hsl</strong>, seguindo a sintaxe abaixo:
+            <br><br>
+            <span style=" color: hsl(0, 100%, 50%); background-color: #ffffff;">color:hsl(0, 100%, 50%);</span><br>
+            <span style="color: hsl(120, 100%, 50%); background-color: #ffffff">color:hsl(120, 100%,
+                50%);</span><br>
+            <span style="color: hsl(240, 100%, 50%); background-color: #ffffff;">color:hsl(240, 100%,
+                50%);</span><br><br>
+
+            O <strong>quinto</strong> modo é utilizando a currentColor, supondo que você definiu no seu body a cor <span
+                style="color: darkorange; background-color: #ffffff;">darkorange</span> lá no css se você colocar no a
+            sintaxe currentColor, ele vai herdar. <br><br>
+            body { <br>
+            border: darkorange; <br>
+            } <br><br>
+            a { <br>
+            border: currentColor; <br>
+            } <br><br>
+
+            A cor herdada do "a" será darkorange.
+        </p>
+
+        <p>
+            Exercício de Fixação ! <br><br>
+
+            Assinale a alternativa correta com relação ao uso de cores no CSS3 e seus formatos: <br><br>
+
+            <span>
+                1 Somente pode ser utilizado cores em inglês no CSS, como red, blue, etc <br>
+                2 Não se pode utilizar formato hexadecimal nas cores <br>
+                3 Para utilizarmos cores no CSS, podemos utilizar o RGB(), passando os parâmetros necessários <br>
+                4 As bordas não podem ter cores no CSS, somente os textos <br><br>
+            </span>
+
+            Resposta no código fonte! (linha 75 HTML)
+
+            <!-- resposta certa seria a opção 3 -->
+        </p>
+    </div>
+</body>
+
+</html>
